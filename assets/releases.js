@@ -1,5 +1,5 @@
 window.ICHIKI_CATALOG = {
-  "checkedAt": "2026-09-15T00:59:13.400Z",
+  "checkedAt": "2026-09-15T07:31:12.709Z",
   "releases": [
     {
       "id": 1848231,
@@ -90,6 +90,15 @@ window.ICHIKI_CATALOG = {
       "link": "https://linkco.re/4Xg6VetQ",
       "spotify": "https://open.spotify.com/album/5mTX3PUEzguBVMJO16nM4m",
       "cover": "images/cover-1673292.webp"
+    },
+    {
+      "id": 1670864,
+      "title": "下弦の海月",
+      "date": "2026-02-27",
+      "kind": "single",
+      "link": "https://linkco.re/Zsmzxx4t",
+      "spotify": "https://open.spotify.com/album/19R5L1NxbTwmPQgckZDBat",
+      "cover": "images/cover-1670864.png"
     }
   ]
 };
