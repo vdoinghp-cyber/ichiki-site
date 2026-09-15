@@ -37,7 +37,6 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           protocol: ftps
           server-dir: /web/vdoing-coltd.com/jp/ichiki/
-          dry-run: true
           exclude: |
             **/.git*
             **/.git*/**
