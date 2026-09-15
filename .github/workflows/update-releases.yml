@@ -3,7 +3,7 @@ name: update-releases
 on:
   schedule:
     - cron: '0 15 * * 4'      # 木曜15時UTC = 日本時間の金曜0時
-  workflow_dispatch:          # 手動実行ボタン
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -28,3 +28,18 @@ jobs:
           git add assets/releases.js images/
           git diff --staged --quiet || git commit -m "リリース情報を更新"
           git push
+
+      - name: サーバーへアップロード
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          protocol: ftps
+          server-dir: /web/vdoing-coltd.com/jp/ichiki/
+          dry-run: true
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/tools/**
+            はじめに.txt
