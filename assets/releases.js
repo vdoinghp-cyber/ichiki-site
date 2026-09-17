@@ -1,6 +1,15 @@
 window.ICHIKI_CATALOG = {
-  "checkedAt": "2026-09-15T08:37:16.866Z",
+  "checkedAt": "2026-09-17T15:09:49.840Z",
   "releases": [
+    {
+      "id": 1952654,
+      "title": "Re:Re:着信 音はまだ恋をしている",
+      "date": "2026-09-18",
+      "kind": "album",
+      "link": "https://linkco.re/8B4NF7cU",
+      "spotify": "https://open.spotify.com/album/0F8naG52nEamRO1YOOvxzl",
+      "cover": "images/cover-1952654.png"
+    },
     {
       "id": 1848231,
       "title": "麻辣ルーレット",
