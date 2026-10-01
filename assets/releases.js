@@ -1,6 +1,15 @@
 window.ICHIKI_CATALOG = {
-  "checkedAt": "2026-09-24T15:09:45.245Z",
+  "checkedAt": "2026-10-01T15:10:46.416Z",
   "releases": [
+    {
+      "id": 1954025,
+      "title": "ネオ東京ブルース",
+      "date": "2026-10-02",
+      "kind": "album",
+      "link": "https://linkco.re/DbRmNahs",
+      "spotify": "https://open.spotify.com/album/4RwZ5T6ZQh1eRML2S6VFCy",
+      "cover": "images/cover-1954025.png"
+    },
     {
       "id": 1952654,
       "title": "Re:Re:着信 音はまだ恋をしている",
