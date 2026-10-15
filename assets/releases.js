@@ -1,6 +1,15 @@
 window.ICHIKI_CATALOG = {
-  "checkedAt": "2026-10-08T15:10:50.424Z",
+  "checkedAt": "2026-10-15T15:25:52.100Z",
   "releases": [
+    {
+      "id": 1959793,
+      "title": "恋の百鬼夜行",
+      "date": "2026-10-16",
+      "kind": "album",
+      "link": "https://linkco.re/438H8vsd",
+      "spotify": "https://open.spotify.com/album/4CVwoyIhcFhLIpyF2p3vKj",
+      "cover": "images/cover-1959793.png"
+    },
     {
       "id": 1954025,
       "title": "ネオ東京ブルース",
