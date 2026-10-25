@@ -1,0 +1,94 @@
+/* Love Singularity — pearl / rose / ink */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Noto+Sans+JP:wght@400;500&display=swap');
+#ichiki-orbit-preview{--paper:#f7f6f2;--ink:#202026;--line:#28232d25;font-family:Arial,'Noto Sans JP',sans-serif;background:var(--paper)}
+#ichiki-orbit-preview .reviewbar{height:30px;background:#232127;color:#e9e2df;font-size:8px;padding-inline:5%;letter-spacing:.19em}
+#ichiki-orbit-preview header{height:78px;background:#f7f6f2df;border-bottom:1px solid var(--line);padding-inline:5%;backdrop-filter:blur(20px)}
+#ichiki-orbit-preview .wordmark{font-family:'Cormorant Garamond',Georgia,serif;font-size:32px;letter-spacing:-.04em;line-height:.8}
+#ichiki-orbit-preview .wordmark small{font:8px Arial,sans-serif;letter-spacing:.38em;margin-top:10px}
+#ichiki-orbit-preview header nav{font-size:9px;letter-spacing:.18em;gap:32px}
+#ichiki-orbit-preview .hero-track{height:1100px}
+#ichiki-orbit-preview .hero-scene{height:calc(100svh - 108px);min-height:620px;max-height:960px;top:78px;clip-path:inset(var(--hero-inset,0%));background:#e6d5d9}
+#ichiki-orbit-preview .hero-scene:after{display:none}
+#ichiki-orbit-preview .hero-scene:before{background:linear-gradient(90deg,#f8f5f1e8,transparent 66%),linear-gradient(0deg,#f7f6f288,transparent 25%)}
+#ichiki-orbit-preview .hero-empty{filter:saturate(.5) contrast(1.08);object-position:65% center}
+#ichiki-orbit-preview .hero-person{right:0;width:58%;height:105%;mask-image:linear-gradient(#000 0%,#000 89%,transparent);filter:drop-shadow(-20px 0 45px #fff7)}
+#ichiki-orbit-preview .hero-type{left:5%;top:20%;width:75%}
+#ichiki-orbit-preview h1{font-family:'Cormorant Garamond',Georgia,serif;font-size:clamp(80px,12.2cqw,190px);line-height:.77;letter-spacing:-.065em;font-weight:400;margin:42px 0 36px;color:#28252c}
+#ichiki-orbit-preview h1 span{font-size:.92em;margin-top:10px;background:linear-gradient(110deg,#28252c,#9c586e 65%,#613747);background-clip:text;-webkit-text-fill-color:transparent}
+#ichiki-orbit-preview .hero-tag{font-size:15px;letter-spacing:.17em}
+#ichiki-orbit-preview .hero-description{font-size:11px;line-height:2}
+#ichiki-orbit-preview .hero-type>.overline{font-size:9px;letter-spacing:.28em}
+#ichiki-orbit-preview .hero-actions{margin-top:28px;gap:18px}
+#ichiki-orbit-preview .pill{border-radius:0;min-height:47px;padding:13px 23px;border-color:#27222c55;font-size:11px}
+#ichiki-orbit-preview .hero-actions .pill.dark{background:#252229;color:#fff}
+#ichiki-orbit-preview .hero-actions .pill:not(.dark){background:transparent}
+#ichiki-orbit-preview .hero-side{font-size:10px;right:3%;bottom:70px}
+#ichiki-orbit-preview .social-first{background:#f7f6f2;padding:26px 5% 38px}
+#ichiki-orbit-preview .social-icons{border-block:1px solid var(--line)}
+#ichiki-orbit-preview .social-icons a{font:12px Arial,sans-serif;letter-spacing:.08em;padding:22px;position:relative}
+#ichiki-orbit-preview .social-icons a+a{border-left:1px solid var(--line)}
+#ichiki-orbit-preview .music-section{background:radial-gradient(ellipse at 50% 43%,#393039,#18161d 55%,#141318);border-radius:0!important;padding:85px 5% 70px;position:relative;color:#f0ece7}
+#ichiki-orbit-preview .chapter-title{font-family:'Cormorant Garamond',Georgia,serif;font-size:clamp(54px,8.2cqw,120px);font-weight:400;letter-spacing:-.045em;line-height:.9;margin:15px 0 28px}
+#ichiki-orbit-preview .section-heading{position:relative}
+#ichiki-orbit-preview .music-section h2{font-family:'Noto Sans JP',sans-serif;font-size:clamp(20px,2.1cqw,30px);letter-spacing:.05em;font-weight:400}
+#ichiki-orbit-preview .music-section .section-caption{font-size:11px;color:#c1b5bd}
+#ichiki-orbit-preview .overline{font-size:9px;letter-spacing:.22em}
+#ichiki-orbit-preview .orbit-track{height:660px}
+#ichiki-orbit-preview .orbit-scene{height:570px;top:78px}
+#ichiki-orbit-preview .orbit-path{border-color:#d8b4bd32}
+#ichiki-orbit-preview .discography-label{font-size:9px;letter-spacing:.18em}
+#ichiki-orbit-preview .record img{box-shadow:0 25px 60px #0008;-webkit-box-reflect:below 12px linear-gradient(transparent 65%,#00000013)}
+#ichiki-orbit-preview .listening{display:flex;justify-content:space-between;align-items:center;gap:20px;background:transparent;border-inline:0;border-block:1px solid #e0cdd12e;padding:26px 0}
+#ichiki-orbit-preview .selected-song h3{font-family:'Cormorant Garamond','Noto Sans JP',serif;font-size:26px;font-weight:400}
+#ichiki-orbit-preview .service-link{min-height:48px;font-size:10px;background:transparent}
+#ichiki-orbit-preview .film-section{padding:90px 5%;background:#141318;color:#f0ece7}
+#ichiki-orbit-preview .film-section .section-heading{display:block}
+#ichiki-orbit-preview .film-section h2{font-family:'Noto Sans JP',sans-serif;font-size:clamp(20px,2.1cqw,30px);font-weight:400}
+#ichiki-orbit-preview .film-section .section-caption{font-size:11px;color:#b8aeb8}
+#ichiki-orbit-preview .featured-film{margin:40px 0 0}
+#ichiki-orbit-preview .film-picture{aspect-ratio:16/8.5;clip-path:inset(0)!important}
+#ichiki-orbit-preview .film-night{filter:saturate(.6) contrast(1.1)}
+#ichiki-orbit-preview .film-caption{padding:20px 0;border-bottom:1px solid #fff2}
+#ichiki-orbit-preview .other-films{gap:28px;margin-top:30px}
+#ichiki-orbit-preview .feeling-track{height:1100px;background:#e9d5db}
+#ichiki-orbit-preview .feeling-scene{height:700px;top:78px;background:radial-gradient(ellipse,#fff6,#e9d5db00)}
+#ichiki-orbit-preview .feeling-word{font-family:'Cormorant Garamond',Georgia,serif;font-style:italic;font-size:clamp(100px,18cqw,240px);line-height:.72;letter-spacing:-.06em;color:#49303c}
+#ichiki-orbit-preview .feeling-word span{color:#fff9;-webkit-text-stroke:0}
+#ichiki-orbit-preview .memory-image{border:0;box-shadow:0 20px 60px #482a4230}
+#ichiki-orbit-preview .memory-a{left:4%;top:14%;width:24%;height:55%}
+#ichiki-orbit-preview .memory-b{right:6%;top:7%;width:23%;height:47%}
+#ichiki-orbit-preview .memory-c{left:42%;bottom:2%;width:19%;height:32%}
+#ichiki-orbit-preview .feeling-orbit{display:none}
+#ichiki-orbit-preview .memory-caption{font-size:12px;right:6%;bottom:35px}
+#ichiki-orbit-preview .moments-section{background:#f7f6f2;padding:90px 5% 60px}
+#ichiki-orbit-preview .moments-section h2{font-size:20px;font-weight:400;letter-spacing:.03em}
+#ichiki-orbit-preview .moments{min-height:690px}
+#ichiki-orbit-preview .moment-main{width:60%;margin-left:0}
+#ichiki-orbit-preview .moment-main img{height:540px;object-fit:cover;filter:saturate(.65)}
+#ichiki-orbit-preview .moment-small{width:28%;right:0;top:30px}
+#ichiki-orbit-preview .moment-small figcaption{font-family:'Cormorant Garamond',Georgia,serif;background:var(--paper);font-size:24px}
+#ichiki-orbit-preview .moment-note{font-family:'Cormorant Garamond',Georgia,serif;font-size:clamp(35px,5cqw,68px);letter-spacing:-.04em;line-height:1;bottom:50px;right:0;color:#81505f}
+#ichiki-orbit-preview .pao-section{background:#e9e6de;padding:65px 7%;border-block:1px solid var(--line)}
+#ichiki-orbit-preview .pao-section:before{content:'little friend.';font-family:'Cormorant Garamond',Georgia,serif;font-style:italic;font-size:19cqw;letter-spacing:-.06em;top:7%;color:#fff8}
+#ichiki-orbit-preview .pao-copy h2{font-size:32px;font-weight:400}
+#ichiki-orbit-preview .pao-hello{font-size:13px;line-height:2.2}
+#ichiki-orbit-preview .about-section{padding:100px 7%;background:#f7f6f2;gap:10%}
+#ichiki-orbit-preview .about-section h2{font-family:'Cormorant Garamond',Georgia,serif;font-size:100px;letter-spacing:-.06em;font-weight:400}
+#ichiki-orbit-preview .about-copy h3{font-size:24px;line-height:1.9;font-weight:400}
+#ichiki-orbit-preview .about-copy p{font-size:13px;line-height:2.5}
+#ichiki-orbit-preview .updates-section{background:#f7f6f2;padding:80px 5%;border-top:1px solid var(--line)}
+#ichiki-orbit-preview .updates-section h2{font-size:22px;font-weight:400}
+#ichiki-orbit-preview .promo-grid{margin-top:60px;gap:24px}
+#ichiki-orbit-preview .pao-banner{background:#e5ded6}
+#ichiki-orbit-preview .official-banner{background:#e7d7dd}
+#ichiki-orbit-preview footer{padding:85px 5% 45px;background:#26212a;color:#eee8e5}
+#ichiki-orbit-preview footer h2{font-family:'Cormorant Garamond','Noto Sans JP',serif;font-size:clamp(32px,5cqw,64px);font-weight:400;letter-spacing:-.03em}
+#ichiki-orbit-preview .social-full a{border-color:#fff3}
+#ichiki-orbit-preview .dock{background:#f7f6f2ed;color:#28222b;border:1px solid #4e3b4b33;border-radius:0;box-shadow:0 10px 35px #0002}
+#ichiki-orbit-preview .opening-overlay{background:radial-gradient(ellipse at 50% 75%,#ead3db,#f7f6f2 65%)}
+#ichiki-orbit-preview .opening-overlay:after{display:none}
+#ichiki-orbit-preview .opening-hook{font-family:'Noto Sans JP',sans-serif;font-size:clamp(25px,4.5cqw,60px);font-weight:400;letter-spacing:.08em;line-height:1.8}
+#ichiki-orbit-preview .opening-title i{font-family:'Cormorant Garamond',Georgia,serif}
+@container(max-width:700px){
+#ichiki-orbit-preview header{height:68px;padding-inline:6%}#ichiki-orbit-preview header nav{gap:15px;font-size:8px}#ichiki-orbit-preview .wordmark{font-size:26px}#ichiki-orbit-preview .hero-track{height:940px}#ichiki-orbit-preview .hero-scene{height:calc(100svh - 98px);min-height:660px;top:68px}#ichiki-orbit-preview .hero-person{width:110%;height:79%;right:-22%;bottom:90px}#ichiki-orbit-preview .hero-type{top:auto;bottom:45px;left:6%;width:88%;background:linear-gradient(transparent,#f7f6f2df 46%);padding-top:50px}#ichiki-orbit-preview h1{font-size:clamp(64px,17cqw,112px);margin:10px 0 24px;line-height:.76}#ichiki-orbit-preview h1 span{font-size:.9em}#ichiki-orbit-preview .hero-type>.overline{font-size:8px;margin-bottom:20px}#ichiki-orbit-preview .hero-tag{font-size:12px}#ichiki-orbit-preview .hero-description{font-size:10px}#ichiki-orbit-preview .hero-actions{margin-top:20px}#ichiki-orbit-preview .hero-side{display:none}#ichiki-orbit-preview .social-first{padding:25px 6% 35px}#ichiki-orbit-preview .social-icons a{font-size:11px;padding:17px 8px}#ichiki-orbit-preview .social-icons a+a{border-left:0}#ichiki-orbit-preview .music-section,#ichiki-orbit-preview .film-section{padding:60px 6%}#ichiki-orbit-preview .chapter-title{font-size:15cqw;margin-bottom:26px}#ichiki-orbit-preview .music-section h2,#ichiki-orbit-preview .film-section h2{font-size:18px}#ichiki-orbit-preview .orbit-track{height:500px}#ichiki-orbit-preview .orbit-scene{height:430px;top:68px}#ichiki-orbit-preview .listening{display:block}#ichiki-orbit-preview .service-actions{margin-top:20px}#ichiki-orbit-preview .service-link{padding:12px;font-size:10px}#ichiki-orbit-preview .film-picture{aspect-ratio:4/5}#ichiki-orbit-preview .other-films{gap:15px}#ichiki-orbit-preview .feeling-track{height:900px}#ichiki-orbit-preview .feeling-scene{height:580px;top:68px}#ichiki-orbit-preview .feeling-word{font-size:22cqw}#ichiki-orbit-preview .memory-a{width:34%;height:40%;top:10%}#ichiki-orbit-preview .memory-b{width:30%;height:33%;right:3%;top:17%}#ichiki-orbit-preview .memory-c{width:28%;height:29%;left:40%;bottom:6%}#ichiki-orbit-preview .memory-caption{font-size:10px;bottom:20px}#ichiki-orbit-preview .moments-section{padding:60px 6% 20px}#ichiki-orbit-preview .moments-section h2{font-size:18px}#ichiki-orbit-preview .moments{min-height:580px}#ichiki-orbit-preview .moment-main{width:74%}#ichiki-orbit-preview .moment-main img{height:390px}#ichiki-orbit-preview .moment-small{width:35%;right:0}#ichiki-orbit-preview .moment-note{font-size:35px;bottom:65px}#ichiki-orbit-preview .pao-section{padding:50px 6%}#ichiki-orbit-preview .pao-section:before{font-size:25cqw}#ichiki-orbit-preview .about-section{padding:65px 6%}#ichiki-orbit-preview .about-section h2{font-size:80px}#ichiki-orbit-preview .about-copy h3{font-size:21px}#ichiki-orbit-preview .updates-section{padding:60px 6%}#ichiki-orbit-preview footer{padding:65px 6% 90px}}
+@media(prefers-reduced-motion:reduce){#ichiki-orbit-preview .hero-track{height:auto}#ichiki-orbit-preview .hero-scene{position:relative;top:0;clip-path:none}#ichiki-orbit-preview .feeling-track{height:auto}#ichiki-orbit-preview .feeling-scene{position:relative;top:0}}
