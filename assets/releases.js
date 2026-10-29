@@ -1,5 +1,5 @@
 window.ICHIKI_CATALOG = {
-  "checkedAt": "2026-10-22T19:02:33.798Z",
+  "checkedAt": "2026-10-29T20:03:07.354Z",
   "releases": [
     {
       "id": 1959793,
