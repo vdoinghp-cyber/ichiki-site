@@ -1,6 +1,15 @@
 window.ICHIKI_CATALOG = {
-  "checkedAt": "2026-11-12T21:42:28.199Z",
+  "checkedAt": "2026-11-19T22:33:29.423Z",
   "releases": [
+    {
+      "id": 2063503,
+      "title": "でじたるちッく！",
+      "date": "2026-11-20",
+      "kind": "album",
+      "link": "https://linkco.re/tSs5uT5U",
+      "spotify": "https://open.spotify.com/album/1USbdsH9YGh2RyiO9XUEmO",
+      "cover": "images/cover-2063503.png"
+    },
     {
       "id": 1959793,
       "title": "恋の百鬼夜行",
